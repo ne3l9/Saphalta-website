@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Saphalata Login Portal</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Register As A Institution</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button onclick="Document.location='DASH.html'">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Register As Student</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span></span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+              
+                <label for="is">Institution Name:</label>
+
+                <select id="is">
+                  <option value="pinegrove">Pinegrove School, Dharampur</option>
+                  <option value="assam-valley">The Assam Valley School, Balipara</option>
+                  <option value="dps-mathura-road">Delhi Public School, Mathura Road</option>
+                  <option value="bishop-cotton">Bishop Cotton Boys' School, Bangalore</option>
+                  <option value="selaqui">SelaQui International School, Dehradun</option>
+                  <option value="dps-rk-puram">Delhi Public School, R.K. Puram</option>
+                  <option value="mayo-college">Mayo College, Ajmer</option>
+                  <option value="lawrence-school-lovedale">The Lawrence School, Lovedale</option>
+                  <option value="Other">Other Institution</option>
+               </select>
+              
+                <input type="Institution Roll Number" placeholder="Institution Roll Number">
+                
+
+                <button class="button" onclick="document.location='DASH.HTML'">
+                    REGISTER
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+                    </svg>
+                  </button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Register as a Student</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="OP" id="login">Click Me</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Register as an Institution</h1>
+                    <p>Register with Institutional details to use all of site features</p>
+                    <button class="OP" id="register">Click Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="cta"
+    onclick="document.location='ABC.html'">
+        <span>Skip To Main Page</span>
+        <svg width="15px" height="10px" viewBox="0 0 13 10">
+          <path d="M1,5 L11,5"></path>
+          <polyline points="8 1 12 5 8 9"></polyline>
+        </svg>
+      </button>
+
+    <script src="scirpt.js"></script>
+</body>
+
+</html>
